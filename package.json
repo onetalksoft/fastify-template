@@ -1,0 +1,22 @@
+{
+  "name": "node-initializer",
+  "version": "1.0.0",
+  "description": "node initializer bolierplate for fastify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vestigialcode/node-initializer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vestigialcode/node-initializer/issues"
+  },
+  "homepage": "https://github.com/vestigialcode/node-initializer#readme",
+  "dependencies": {
+    "fastify": "^3.22.0"
+  }
+}
