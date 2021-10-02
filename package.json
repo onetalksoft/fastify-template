@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vestigialcode/node-initializer#readme",
   "dependencies": {
     "fastify": "^3.22.0",
+    "mongoose": "^6.0.8",
     "nodemon": "^2.0.13"
   }
 }
