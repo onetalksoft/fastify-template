@@ -18,6 +18,15 @@ app.get("/api/users", (request, reply) => {
         }
     })
 })
+app.get("/new", (request, reply) => {
+    User.find({}, (err, users) => {
+        if (!err) {
+            reply.send(users)
+        } else {
+            reply.send({ error: err })
+        }
+    })
+})
 app.get("/api/users/:userId", (request, reply) => {
     var userId = request.params.userId
     User.findById(userId, (err, user) => {
