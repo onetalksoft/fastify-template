@@ -10,7 +10,4 @@ fastify-template is an initiative to make the fastest possible node api .it's p
   make sure mongodb is started otherwise it will show error
   
   ## Pull requests are welcome    :tada:<br>
-  ## Things to do
-    🔲 adding contenerization with docker
-    🔲 Making this codebase ready to use production grade boilerplate
-    🔲 adding continous integration
+ 
