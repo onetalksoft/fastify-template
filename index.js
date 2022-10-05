@@ -37,16 +37,7 @@ app.get("/api/users/:userId", (request, reply) => {
         }
     })
 })
-app.post("/api/users", (request, reply) => {
-    var user = request.body
-    User.create(user, (err, user) => {
-        if (!err) {
-            reply.send(user)
-        } else {
-            reply.send({ error: err })
-        }
-    })
-})
+
 app.put("/api/users/:userId", (request, reply) => {
     var userId = request.params.userId
     var newUserEdit = request.body  
